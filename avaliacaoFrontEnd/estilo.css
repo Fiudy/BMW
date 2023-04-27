@@ -2,152 +2,215 @@ body {
     font-family: Montserrat;
     margin: 0;
     padding: 0;
-}
-
-main {
+  }
+  
+  main {
     width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 3px;
-}
-
-header {
+    margin: 3px auto 0;
+  }
+  
+  header {
     height: 697px;
     position: relative;
-}
-
-section#menu_inicial {
-    background-image: url("Imagens/BG_header.png");
-    background-position: bottom;
-    background-size: cover;
+  }
+  
+  div.banner {
     position: absolute;
     width: 1440px;
     height: 647px;
-    top: 80px;
+    top: 0;
     left: 0;
-    border: 1px;
-    color: #C4C4C4;
-}
-
-div.logo {
+    background-image: url(Imagens/BG_header.png);
+  }
+  
+  div.Logo {
     position: absolute;
-    height: 50px;
-    width: 50px;
-    top: 80px;
-    left: 20px;
-    border-radius: 0px;
-}
-
-.m-power {
+    left: 7.02%;
+    top: 0.49%;
+  }
+  
+  div.Logo img {
+    width: 1440px;
+    height: 647px;
+    background-image: url(Imagens/H1BMWlogo.ico);
+  }
+  
+  .nav_centro {
+    color: #c9d6df;
+  }
+  
+  .m-power {
     position: absolute;
     width: 89px;
     height: 24px;
     left: 471px;
     top: 30px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #C9D6DF;
-}
-
-.x-series {
+  }
+  
+  .m-power:hover {
+    background-color: #000000;
+  }
+  
+  .x-series {
     position: absolute;
     width: 78px;
     height: 24px;
     left: 620px;
     top: 30px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #C9D6DF;
-}
-
-.i-series {
+  }
+  
+  .x-series:hover {
+    background-color: #000000;
+  }
+  
+  .i-series {
     position: absolute;
     width: 71px;
     height: 24px;
     left: 758px;
     top: 30px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #C9D6DF;
-}
-
-.alpina {
+  }
+  
+  .i-series:hover {
+    background-color: #000000;
+  }
+  
+  .alpina {
     position: absolute;
     width: 64px;
     height: 24px;
     left: 889px;
     top: 30px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #C9D6DF;
-}
-
-.shop {
+  }
+  
+  .alpina:hover {
+    background-color: #000000;
+  }
+  
+  .nav_esquerda {
+    color: #c9d6df;
+  }
+  
+  .shop {
     position: absolute;
     width: 52px;
     height: 24px;
     left: 1150px;
-    top: 30px;
-    font-family: 'Montserrat';
+    top: 55px;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #C9D6DF;
-}
-
-.account {
+  }
+  
+  .shop:hover {
+    background-color: #000000;
+  }
+  
+  .account {
     position: absolute;
     width: 85px;
-    height: 24px;
-    left: 1232px;
-    top: 30px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #C9D6DF;
-}
-
-.id-centro {
-    position: absolute;
+    height: 30px;
+    left: 1300px;
+    top: 55px;
+  }
+  
+  .account:hover {
+    background-color: #000000;
+  }
+  
+  .centro {
     text-align: center;
+    color: #c9d6df;
+  }
+  
+  div.texto1 {
+    position: absolute;
     width: 426px;
-    height: 41px;
-    left: 506px;
-    top: 115px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 34px;
-    line-height: 41px;
-    color: #C9D6DF;
-}
+  }
 
-.id-centro p {
+  div.texto2 {
     position: absolute;
-    text-align: center;
-    width: 342px;
-    height: 29px;
-    left: 548px;
-    top: 156px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: #C9D6DF;
-}
+  width: 342px;
+  height: 29px;
+  left: 548px;
+  top: 156px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #C9D6DF;
+
+  }
+
+  .imagem1 {
+    background-image: url("Imagens/the 8 1.jpg");
+    position: absolute;
+    width: 1195px;
+    height: 500px;
+    left: 114px;
+   top: 754px;
+  }
+
+  .the8 {
+    position: absolute;
+  width: 338px;
+  height: 41px;
+  left: 211px;
+  top: 795px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+
+  color: #C9D6DF;
+
+  }
+
+  .the8-1 {
+    position: absolute;
+  width: 119px;
+  height: 49px;
+  left: 211px;
+  top: 843px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+/* identical to box height */
+
+
+  color: #C9D6DF;
+  }
+
+  .imagem2 {
+background-image: url("");
+  }
