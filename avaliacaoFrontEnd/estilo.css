@@ -1,0 +1,153 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 3px;
+}
+
+header {
+    height: 697px;
+    position: relative;
+}
+
+section#menu_inicial {
+    background-image: url("Imagens/BG_header.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 1440px;
+    height: 647px;
+    top: 80px;
+    left: 0;
+    border: 1px;
+    color: #C4C4C4;
+}
+
+div.logo {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 80px;
+    left: 20px;
+    border-radius: 0px;
+}
+
+.m-power {
+    position: absolute;
+    width: 89px;
+    height: 24px;
+    left: 471px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C9D6DF;
+}
+
+.x-series {
+    position: absolute;
+    width: 78px;
+    height: 24px;
+    left: 620px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C9D6DF;
+}
+
+.i-series {
+    position: absolute;
+    width: 71px;
+    height: 24px;
+    left: 758px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C9D6DF;
+}
+
+.alpina {
+    position: absolute;
+    width: 64px;
+    height: 24px;
+    left: 889px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C9D6DF;
+}
+
+.shop {
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    left: 1150px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C9D6DF;
+}
+
+.account {
+    position: absolute;
+    width: 85px;
+    height: 24px;
+    left: 1232px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C9D6DF;
+}
+
+.id-centro {
+    position: absolute;
+    text-align: center;
+    width: 426px;
+    height: 41px;
+    left: 506px;
+    top: 115px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    color: #C9D6DF;
+}
+
+.id-centro p {
+    position: absolute;
+    text-align: center;
+    width: 342px;
+    height: 29px;
+    left: 548px;
+    top: 156px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #C9D6DF;
+}
